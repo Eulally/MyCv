@@ -108,3 +108,16 @@
 #recommandation_article article {
 	flex-direction: column;
 }
+h2 .fas {
+	font-size: 1.5em;
+	padding-right: 20px;
+}
+.right article .fas {
+	font-size: 12px;
+	margin-right: 20px;
+}
+.right article .far {
+	font-size: 14px;
+	margin-right: 20px;
+	font-weight:400;
+}
