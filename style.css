@@ -7,10 +7,16 @@
 .identity{
 	padding: 5% 50px;
 }
-
 #photo {
 	text-align: center;
 	padding: 50px 0px;
+}
+
+#photo img {
+	border-style: outset;
+	border-radius: 50%;
+	width : 200px;
+	height: 200px;
 }
 
 .identity h1 {
@@ -58,7 +64,6 @@
 .icons {
 	display: flex;
 	justify-content: space-around;
-	color: #263238;
 }
 .icons div {
 	display: flex;
@@ -68,6 +73,10 @@
 	height: 60px;
 	border: 2px solid;
 	border-radius:50%;
+}
+.icons i {
+	padding: 20px;
+	font-size: 2em;
 }
 
 /*right block*/
