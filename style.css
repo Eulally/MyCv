@@ -154,3 +154,15 @@ color: #4DB6AC
 		height: 190px;
 	}
 }
+@media all and (max-width: 767px) {
+	#photo img {
+		width: 300px;
+		height: 300px;
+	}
+	#loisirs {
+		position: relative;
+	}
+	.right {
+		padding: 0px 30px;
+	}
+}
