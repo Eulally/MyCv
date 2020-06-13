@@ -166,3 +166,21 @@ color: #4DB6AC
 		padding: 0px 30px;
 	}
 }
+@media all and (max-width: 599px) {
+	#formation article, #experience article, #recommandation_article {
+		flex-direction: column;
+	}
+	#loisirs {
+		position: relative;
+	}
+	.right {
+		padding: 0px 30px;
+	}
+	.right article .col-md-4 {
+		display: flex;
+	}
+	#photo img {
+		width: 250px;
+		height: 250px;
+	}
+}
