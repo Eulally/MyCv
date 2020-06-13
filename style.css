@@ -1,3 +1,19 @@
+/*fonts*/
+@font-face{
+	font-family: "renner";
+	src:url("./font/renner.ttf") format("truetype"),
+	url("./font/renner.eot") format("eot"),
+	url("./font/renner.woff") format("woff"),
+	url("./font/renner.otf") format("opentype"),
+	url("./font/renner.svg") format("svg");
+}
+body {
+	font-family:'renner',"Trebuchet MS", sans-serif;
+}
+body h1, h2 {
+	font-family:"Trebuchet MS", sans-serif;
+}
+/***/
 .row {
 	display: flex;
 	margin: 0px;
@@ -35,7 +51,7 @@
 .identity h2 span {
 	border-bottom: 2px solid #4DB6AC;
 }
-
+/***/
 /*left block*/
 .left {
 	padding:0px;
@@ -90,7 +106,7 @@
 	padding: 20px;
 	font-size: 2em;
 }
-
+/***/
 /*right block*/
 .right {
 	padding-left: 50px;
@@ -145,6 +161,8 @@ color: #4DB6AC
 .lieu2 {
 	padding-left: 37px;
 }
+/***/
+/*responsive*/
 @media all and (max-width: 1332px) {
 	.left p {
 		padding: 0px 30px;
@@ -193,3 +211,4 @@ color: #4DB6AC
 		height: 250px;
 	}
 }
+/***/
