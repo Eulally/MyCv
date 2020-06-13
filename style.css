@@ -145,3 +145,12 @@ color: #4DB6AC
 .lieu2 {
 	padding-left: 37px;
 }
+@media all and (max-width: 1332px) {
+	.left p {
+		padding: 0px 30px;
+	}
+	#photo img {
+		width: 190px;
+		height: 190px;
+	}
+}
