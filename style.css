@@ -184,3 +184,12 @@ color: #4DB6AC
 		height: 250px;
 	}
 }
+@media all and (max-width: 380px) {
+	.right h2 {
+		font-size: 1.5rem;
+	}
+	#photo img {
+		width: 250px;
+		height: 250px;
+	}
+}
