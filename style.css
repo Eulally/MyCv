@@ -59,7 +59,7 @@ body h1, h2 {
 	position: relative;
 	background-color: #FDD835;
 }
-.left article {
+.left article, .left address{
 	padding: 0px 0px;
 }
 .left p {
@@ -149,6 +149,7 @@ a:visited {
 	justify-content: space-between;
 	padding: 30px 0px 20px 0px;
 }
+
 #recommandation_article article {
 	flex-direction: column;
 }
@@ -211,6 +212,12 @@ color: #FDD835
 	.right article .col-md-4 {
 		display: flex;
 	}
+	.right h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
 	#photo img {
 		width: 250px;
 		height: 250px;
@@ -218,7 +225,10 @@ color: #FDD835
 }
 @media all and (max-width: 380px) {
 	.right h2 {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
+	}
+	h3 {
+		font-size: 1.4rem;
 	}
 	#photo img {
 		width: 250px;
