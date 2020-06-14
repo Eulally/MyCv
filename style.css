@@ -59,7 +59,7 @@ body h1, h2 {
 	position: relative;
 	background-color: #FDD835;
 }
-.left article, .left address{
+.left article{
 	padding: 0px 0px;
 }
 .left p {
@@ -74,7 +74,7 @@ body h1, h2 {
 	color: #FDD835;
 }
 
-#contact p {
+#contact address {
 	text-align: left;
 }
 
