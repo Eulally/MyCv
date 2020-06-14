@@ -149,6 +149,9 @@ a:visited {
 	justify-content: space-between;
 	padding: 30px 0px 20px 0px;
 }
+.bold {
+	font-weight: bold;
+}
 
 #recommandation_article article {
 	flex-direction: column;
